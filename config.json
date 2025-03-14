@@ -1,0 +1,12 @@
+{
+    "start_state": "q0",
+    "final_states": ["q_accept"],
+    "space_limit": 10,
+    "transitions": {
+        "q0,1": ["q1", "X", "R"],
+        "q1,0": ["q2", "Y", "R"],
+        "q2,1": ["q_accept", "1", "S"]
+    }
+}
+
+
